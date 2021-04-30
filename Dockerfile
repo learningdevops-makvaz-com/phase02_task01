@@ -1,3 +1,11 @@
-FROM ubuntu:20.04
+# don't change this line
+FROM korney4eg/nginx-php:latest
 
-# Here add code that installes nginx that supports php. By default when starting container it should run nginx with exposed port 8080
+# your code goes here
+# Make nginx use app.conf configuration to properly render php files
+# Make sure that index.php file is available in browser
+# expose needed ports
+
+
+# don't change this line
+CMD ["/usr/bin/supervisord"]
