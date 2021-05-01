@@ -1,3 +1,12 @@
+<html>
+<head>
+<title> My PHP website </title> 
+</head>
+<body>
+<h1> 
+The site works :)
+</h1>
+<p>
 <?php
 echo 'hostname='.gethostname().'</br>';
 if (getenv('VERSION') == null) {
@@ -6,3 +15,9 @@ if (getenv('VERSION') == null) {
     echo "$VERSION=".getenv('VERSION');
 }
 ?>
+</p>
+</body>
+</html>
+
+
+<!-- https://gist.github.com/samt/1175098 -->
