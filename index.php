@@ -18,6 +18,3 @@ if (getenv('VERSION') == null) {
 </p>
 </body>
 </html>
-
-
-<!-- https://gist.github.com/samt/1175098 -->
