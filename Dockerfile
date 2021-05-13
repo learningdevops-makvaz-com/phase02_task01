@@ -1,7 +1,7 @@
 # don't change this line
 FROM korney4eg/nginx-php:latest
 
-#RUN apt update && apt upgrade
+RUN apt update && apt -y upgrade
 
 COPY app.conf /etc/nginx/sites-enabled/app.conf
 RUN chmod +x /etc/nginx/sites-enabled/app.conf
