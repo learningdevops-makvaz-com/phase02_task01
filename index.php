@@ -1,7 +1,7 @@
 <?php
-echo 'hostname='.gethostname().'</br>';
+echo 'ghostname='.gethostname().'</br>';
 if (getenv('VERSION') == null) {
-    echo '$VERSION not set';
+    echo '$VERSION not defo not set';
 } else {
     echo "$VERSION=".getenv('VERSION');
 }
