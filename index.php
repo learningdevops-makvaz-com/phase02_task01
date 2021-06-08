@@ -1,5 +1,5 @@
 <?php
-echo 'ghostname='.gethostname().'</br>';
+echo 'toastname='.gethostname().'</br>';
 if (getenv('VERSION') == null) {
     echo '$VERSION not defo not set';
 } else {
